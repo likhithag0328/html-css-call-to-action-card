@@ -2,16 +2,59 @@
 <html lang="en">
   <head>
     <title>Chat bot</title>
+    <style>
+      article {
+        width: 20%;
+        height: 50%;
+        font-family: system-ui;
+        font-weight: 200;
+        border: 0.5px solid rgba(0, 0, 0, 0.3);
+        padding: 3%;
+        margin: 5%;
+      }
+      h1 {
+        font-size: 37px;
+        font-weight: 200;
+        color: rgba(0, 0, 0, 0.6);
+        margin: 0;
+      }
+      #description {
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        line-height: 22px;
+      }
+      #button {
+        background-color: #4184e1;
+        color: white;
+        text-align: center;
+        padding: 1.5%;
+        border-radius: 15px;
+      }
+      #agreement {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 12px;
+        line-height: 17px;
+        margin-bottom: 0;
+      }
+      #divider {
+        width: 12%;
+        height: 2px;
+        background-color: #000;
+        margin: 17px 0;
+      }
+    </style>
   </head>
   <body>
     <article>
       <h1>Build your first chatbot in 10 minutes!</h1>
-      <p>
+      <div id="divider"></div>
+      <p id="description">
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for Chatbot.
       </p>
-      <div>TRY NOW →</div>
-      <p>
+      <div id="button">TRY NOW &rarr;</div>
+      <p id="agreement">
         By clicking try now you create an account and agree to our Terms and
         Conditions and Privacy Policy.
       </p>
